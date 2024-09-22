@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Hhi.WWF.ActivityLibrary">
+      <HintPath>..\..\..\source\repos\amber\AmberProcesses\AmberLibraries\Hhi.WWF.ActivityLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Hhi.WWF.ActivityLibrary.Devino">
+      <HintPath>..\..\..\source\repos\amber\AmberProcesses\AmberLibraries\Hhi.WWF.ActivityLibrary.Devino.dll</HintPath>
+    </Reference>
+    <Reference Include="Hhi.WWF.Engine.AmberAPI">
+      <HintPath>..\..\..\source\repos\amber\AmberProcesses\AmberLibraries\Hhi.WWF.Engine.AmberAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
